@@ -64,3 +64,25 @@ Lot 2 has a similar true sample mean of 1500.02 with a p-value of 0.61, so the n
 Lot 3 has a sample mean of 1496.14 and the p-value is 0.04, which is lower than the significance level of 0.05. Thus, the null hypothesis is rejected showing that this sample mean and the presumed population mean are statistically different.
 
 As a result, lot 3 may have had some production issues to have statistically different PSI values from 1500.
+
+# Deliverable 4
+
+## Study Design: MechaCar vs Competition
+
+A statistical study that can quantify how the MechaCar performs against competition can be the following metrics collected over the past 3 years:
+
+- Cost: Dependent Variable
+- Miles per gallon: Independent Variable
+- Horse power: Independent Variable
+- Maintenance cost (including insurance, gasoline): Independent Variable
+- Safety rating: Independent Variable
+- Engine (electric, hybrid, gasoline): Independent Variable
+
+The null and alternative hypotheses include:
+
+- Null Hypothesis: MechaCar is priced correctly based on its performance of key factors for its genre.
+- Alternative Hypothesis: MechaCar is not priced correctly based on performance of key factors for its genre.
+
+For statistical test, a multiple linear regression can be used to determine the factors that have the highest correlation/predictability with the list selling price (dependent variable) to determine which combination has the greatest impact on price (which could be multiple independent variables).
+
+The data needed to run the statistical test would be what the cost of each car would be based on miles per gallon, horse power, maintenance cost, safety rating, and engine for the past 3 years. As a result, the multiple linear regression can be run to determine the correlation between the dependent and independent variables.
